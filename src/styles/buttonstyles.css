@@ -1,0 +1,469 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+
+
+.raformstyle{
+	textAlign: left;
+	verticleAligh: middle;
+	horizontalAlign: left;
+}
+
+@media (application-dpi: 160){
+	.moreImage{
+		source: "@embed('assets/icons/more32.png')";
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.moreImage{
+		source: "@embed('assets/icons/more48.png')";
+		
+	}
+}
+
+@media (application-dpi: 320){
+	.moreImage{
+		source: "@embed('assets/icons/more64.png')";
+		
+	}
+}
+@media (application-dpi: 160){
+	.groupsImage{
+		source: Embed(source='assets/icons/groupsicon32.png');
+		
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.groupsImage{
+		source: Embed(source='assets/icons/groupsicon48.png');
+		
+	}
+}
+
+@media (application-dpi: 320){
+	.groupsImage{
+		source: Embed(source='assets/icons/groupsicon64.png');
+		
+	}
+}
+@media (application-dpi: 160){
+	.checkImage{
+		source: Embed(source='assets/icons/goodcheck16.png');
+		
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.checkImage{
+		source: Embed(source='assets/icons/goodcheck24.png');
+		
+	}
+}
+
+@media (application-dpi: 320){
+	.checkImage{
+		source: Embed(source='assets/icons/goodcheck32.png');
+		
+	}
+}
+@media (application-dpi: 160){
+	.searchImage{
+		source: "@embed('assets/icons/search32.png')";
+		
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.searchImage{
+		source: "@embed('assets/icons/search48.png')";
+		
+	}
+}
+
+@media (application-dpi: 320){
+	.searchImage{
+		source: "@embed('assets/icons/search64.png')";
+		
+	}
+}
+@media (application-dpi: 160){
+	.saveImage{
+		icon: "assets/icons/save32.png";
+		
+		
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.saveImage{
+		icon: "assets/icons/save48.png";
+		
+		
+	}
+}
+
+@media (application-dpi: 320){
+	.saveImage{
+		icon: "assets/icons/save64.png";
+		
+		
+	}
+}
+@media (application-dpi: 160){
+	.certificateImage{
+		source: "@embed('assets/icons/certificate32.png')";
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.certificateImage{
+		source: "@embed('assets/icons/certificate48.png')";
+		
+	}
+}
+
+@media (application-dpi: 320){
+	.certificateImage{
+		source: "@embed('assets/icons/certificate64.png')";
+		
+	}
+}
+
+/*#####################################################*/
+/* Styles for icon buttons */
+
+@media (application-dpi: 160){
+	.filterButton{
+		icon: Embed(source='assets/icons/filter24.png');	
+	}
+}
+
+@media (application-dpi: 240){
+	.filterButton{
+		icon: Embed(source='assets/icons/filter32.png');	
+	}
+}
+
+@media (application-dpi: 320){
+	.filterButton{
+		icon: Embed(source='assets/icons/filter48.png');	
+	}
+}
+
+@media (application-dpi: 160){
+	.systemsButton{
+		icon: "assets/icons/systems32.png";
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.systemsButton{
+		icon: "assets/icons/systems48.png";	
+	}
+}
+
+@media (application-dpi: 320){
+	.systemsButton{
+		icon: "assets/icons/systems64.png";	
+	}
+}
+@media (application-dpi: 160){
+	.groupsButton{
+		icon: "assets/icons/groupsicon32.png";
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.groupsButton{
+		icon: "assets/icons/groupsicon48.png";	
+	}
+}
+
+@media (application-dpi: 320){
+	.groupsButton{
+		icon: "assets/icons/groupsicon64.png";	
+	}
+}
+
+@media (application-dpi: 160){
+	.reportsButton{
+		icon: "assets/icons/reports32.png";
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.reportsButton{
+		icon: "assets/icons/reports48.png";	
+	}
+}
+
+@media (application-dpi: 320){
+	.reportsButton{
+		icon: "assets/icons/reports64.png";	
+	}
+}
+
+@media (application-dpi: 160){
+	.statsButton{
+		icon: "assets/icons/stats32.png";
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.statsButton{
+		icon: "assets/icons/stats48.png";	
+	}
+}
+
+@media (application-dpi: 320){
+	.statsButton{
+		icon: "assets/icons/stats64.png";	
+	}
+}
+@media (application-dpi: 160){
+	.dashboardButton{
+		icon: "assets/icons/dashboard32.png";
+		
+	}
+}
+
+@media (application-dpi: 240){
+	.dashboardButton{
+		icon: "assets/icons/dashboard48.png";	
+	}
+}
+
+@media (application-dpi: 320){
+	.dashboardButton{
+		icon: "assets/icons/dashboard64.png";	
+	}
+}
+/*#####################################################*/
+
+/* Styles for Buttons */
+
+@media (application-dpi: 160){
+	.refreshButton{
+		icon: Embed(source='assets/icons/refreshdbl24.png');	
+	}
+}
+
+@media (application-dpi: 240){
+	.refreshButton{
+		icon: Embed(source='assets/icons/refreshdbl32.png');	
+	}
+}
+
+@media (application-dpi: 320){
+	.refreshButton{
+		icon: Embed(source='assets/icons/refreshdbl48.png');	
+	}
+}
+
+@media (application-dpi: 160){
+	.searchButton{
+		icon: "assets/icons/search32.png";	
+	}
+}
+
+@media (application-dpi: 240){
+	.searchButton{
+		icon: "assets/icons/search48.png";	
+	}
+}
+
+@media (application-dpi: 320){
+	.searchButton{
+		icon: "assets/icons/search64.png";	
+	}
+}
+
+@media (application-dpi: 160){
+	.saveButton{
+		icon: "assets/icons/save32.png";	
+	}
+}
+
+@media (application-dpi: 240){
+	.saveButton{
+		icon: "assets/icons/save48.png";	
+	}
+}
+
+@media (application-dpi: 320){
+	.saveButton{
+		icon: "assets/icons/save64.png";	
+	}
+}
+
+@media (application-dpi: 160){
+	.editButton{
+		icon: "assets/icons/edit32.png";	
+	}
+}
+
+@media (application-dpi: 240){
+	.editButton{
+		icon: "assets/icons/edit48.png";	
+	}
+}
+
+@media (application-dpi: 320){
+	.editButton{
+		icon: "assets/icons/edit64.png";	
+	}
+}
+
+
+@media (application-dpi: 160){
+	.deleteButton{
+		icon: Embed(source='assets/icons/trash24.png');	
+	}
+}
+
+@media (application-dpi: 240){
+	.deleteButton{
+		icon: Embed(source='assets/icons/trash32.png');	
+	}
+}
+
+@media (application-dpi: 320){
+	.deleteButton{
+		icon: Embed(source='assets/icons/trash48.png');	
+	}
+}
+
+@media (application-dpi: 160){
+	.addButton{
+		icon: Embed(source='assets/icons/addbutton24.png');	
+	}
+}
+
+@media (application-dpi: 240){
+	.addButton{
+		icon: Embed(source='assets/icons/addbutton32.png');	
+	}
+}
+
+@media (application-dpi: 320){
+	.addButton{
+		icon: Embed(source='assets/icons/addbutton48.png');	
+	}
+}
+@media (application-dpi: 160){
+	.shareactionButton{
+		icon: Embed(source='assets/icons/share_white160.png');
+		source: Embed(source='assets/icons/share_white160.png');
+	}
+}
+
+@media (application-dpi: 240){
+	.shareactionButton{
+		icon: Embed(source='assets/icons/share_white240.png');
+		source: Embed(source='assets/icons/share_white240.png');
+	}
+}
+
+@media (application-dpi: 320){
+	.shareactionButton{
+		icon: Embed(source='assets/icons/share_white320.png');
+		source: Embed(source='assets/icons/share_white320.png');
+	}
+}
+
+@media (application-dpi: 160){
+	.homeButton{
+		icon: Embed('assets/icons/home48.png');	
+		source: Embed('assets/icons/home32.png');
+	}
+}
+
+@media (application-dpi: 240){
+	.homeButton{
+		icon: Embed('assets/icons/home48.png');
+		source: Embed('assets/icons/home48.png');
+
+	}
+}
+
+@media (application-dpi: 320){
+	.homeButton{
+		icon: Embed('assets/icons/home64.png');
+		source: Embed('assets/icons/home64.png');
+
+	}
+}
+
+
+@media (application-dpi: 160){
+	.backButton{
+	}
+}
+@media (application-dpi: 240){
+	.backButton{
+
+	}
+}
+@media (application-dpi: 320){
+	.backButton{
+
+	}
+}
+@media (application-dpi: 160){
+	.settingsButtonicon{
+		icon: "assets/icons/settingsicon32.png";	}
+}
+@media (application-dpi: 240){
+	.settingsButtonicon{
+		icon: "assets/icons/settingsicon48.png";	
+	}
+}
+@media (application-dpi: 320){
+	.settingsButtonicon{
+		icon: "assets/icons/settingsicon64.png";	
+	}
+}
+
+@media (application-dpi: 160){
+	.settingsButtonicon{
+		icon: "assets/icons/settingsicon32.png";	
+	}
+}
+@media (application-dpi: 240){
+	.inheritedButton{
+		icon: "assets/icons/package48.png";	
+	}
+}
+@media (application-dpi: 320){
+	.inheritedButton{
+		icon: "assets/icons/package64.png";	
+	}
+}
+@media (application-dpi: 160){
+	.infoButton{
+		icon: "assets/icons/info32.png";	
+	}
+}
+@media (application-dpi: 240){
+	.infoButton{
+		icon: "assets/icons/info48.png";	
+	}
+}
+@media (application-dpi: 320){
+	.infoButton{
+		icon: "assets/icons/info64.png";	
+	}
+}
+
+

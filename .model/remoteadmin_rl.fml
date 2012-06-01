@@ -1,0 +1,52 @@
+
+<model xmlns="http://ns.adobe.com/Fiber/1.0">
+  <annotation name="ActionScriptGeneration">
+    <item name="FullyQualifyReferences">true</item>
+  </annotation>
+  <service name="Testme">
+    <annotation name="ActionScriptGeneration">
+      <item name="ServiceType">HTTPMultiService</item>
+      <item name="Package">services.testme</item>
+    </annotation>
+    <annotation name="ServiceTypeGroup">
+      <item name="ServiceBackendType">HTTPService</item>
+    </annotation>
+    <annotation name="ServiceConfig">
+      <item name="DEFAULT_ENTITY_PACKAGE">valueObjects</item>
+      <item name="LINKED_FILE"></item>
+    </annotation>
+    <function name="Operation1" return-type="opaque">
+      <annotation name="analyze group">
+        <item name="analyzed">false</item>
+      </annotation>
+      <annotation name="ActionScriptGeneration">
+        <item name="method">GET</item>
+        <item name="url">http://192.168.1.60:3000/hosts</item>
+      </annotation>
+      <annotation name="url group">
+        <item name="completeURL">http://192.168.1.60:3000/hosts</item>
+      </annotation>
+      <annotation name="original signature">
+        <item name="returnType">opaque</item>
+      </annotation>
+    </function>
+    <function name="Operation2" return-type="opaque">
+      <annotation name="analyze group">
+        <item name="analyzed">false</item>
+      </annotation>
+      <annotation name="ActionScriptGeneration">
+        <item name="method">GET</item>
+        <item name="url">http://192.168.1.60:3000/groups</item>
+      </annotation>
+      <annotation name="url group">
+        <item name="completeURL">http://192.168.1.60:3000/groups</item>
+      </annotation>
+      <annotation name="original signature">
+        <item name="inputParamNames">multiple</item>
+        <item name="inputParams">string</item>
+        <item name="returnType">opaque</item>
+      </annotation>
+      <parameter name="multiple" type="string"/>
+    </function>
+  </service>
+</model>

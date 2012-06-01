@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="23.8311" viewWidth="23.6309" ai:appVersion="15.0.2.399" ATE:version="1.0.0" flm:version="1.0.0" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:ai="http://ns.adobe.com/ai/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library>
+    <Definition name="Check_Grey" d:userLabel="Check - Grey">
+      <Group d:userLabel="Check - Grey">
+        <Path x="-14.3208" y="-13.7471" winding="nonZero" ai:seqID="3" data="M47.7222 10.9458 38.8999 0 17.7671 26.248 8.82178 15.1377 0 26.0967 17.7554 48.1504 17.7671 48.1211 17.793 48.1504 47.7222 10.9458Z">
+          <fill>
+            <SolidColor color="#00FF00"/>
+          </fill>
+        </Path>
+      </Group>
+    </Definition>
+  </Library>
+  <Group ai:seqID="1" d:layerType="page" d:pageHeight="23.831" d:pageWidth="23.631" d:type="layer" d:userLabel="Artboard 1">
+    <Group ai:seqID="2" d:type="layer" d:userLabel="Layer 1">
+      <Check_Grey scaleX="0.495176" scaleY="0.494942" x="7.09131" y="6.80371" ai:seqID="4"/>
+    </Group>
+  </Group>
+  <Private/>
+</Graphic>

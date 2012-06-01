@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:TabbedViewNavigatorApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+								  xmlns:s="library://ns.adobe.com/flex/spark"
+								  xmlns:view="com.lmc.ralib.view.*" splashScreenScaleMode="zoom"
+								  splashScreenImage="@Embed('assets/images/splashimage.png')"
+								  xmlns:ra="com.lmc.remoteadmin.*"
+								  >
+	<fx:Style source="styles/buttonstyles.css" /> 
+	<fx:Style source="styles/chartstyles.css" /> 
+	<fx:Style source="styles/globalsettings.css" />
+	<fx:Style source="styles/forms.css" />
+
+
+	<!-- <fx:Style source="style.css" /> -->
+	<fx:Declarations>
+		<s:MultiDPIBitmapSource id="systemsicon" source160dpi="@Embed('assets/icons/systems32.png')"
+								source240dpi="@Embed('assets/icons/systems48.png')"				
+								source320dpi="@Embed('assets/icons/systems64.png')"/>
+		<s:MultiDPIBitmapSource id="reportsicon" source160dpi="@Embed('assets/icons/reports32.png')"
+								source240dpi="@Embed('assets/icons/reports48.png')"				
+								source320dpi="@Embed('assets/icons/reports64.png')"/>
+		<s:MultiDPIBitmapSource id="facticon" source160dpi="@Embed('assets/icons/facticon32.png')"
+								source240dpi="@Embed('assets/icons/facticon48.png')"				
+								source320dpi="@Embed('assets/icons/facticon64.png')"/>		
+		
+		
+		<s:MultiDPIBitmapSource id="homeicon" source160dpi="@Embed('assets/icons/home32.png')"
+								source240dpi="@Embed('assets/icons/home48.png')"				
+								source320dpi="@Embed('assets/icons/home64.png')"/>
+		<s:MultiDPIBitmapSource id="moreicon" source160dpi="@Embed('assets/icons/more32.png')"
+								source240dpi="@Embed('assets/icons/more48.png')"				
+								source320dpi="@Embed('assets/icons/more64.png')"/>
+	
+								
+	</fx:Declarations>	
+	<fx:Script>
+		<![CDATA[
+			import mx.core.FlexGlobals;
+			
+			//TODO Change DPI aware font size for list
+			//TODO Change DPI aware size for button 
+			// trick Flash Builder by adding a dependency
+			IOSThemeClasses;
+			MobileExamples;
+
+		]]>
+	</fx:Script>
+	<s:ViewNavigator label="Home" icon="{homeicon}" width="100%" height="100%" id="homenav" />
+	<s:ViewNavigator label="Hosts" icon="{systemsicon}" width="100%" height="100%" firstView="com.lmc.ralib.view.HostsView" id="hostsnav"/>
+	<s:ViewNavigator label="Reports" icon="{reportsicon}" width="100%" height="100%" firstView="com.lmc.ralib.view.ReportsView" id="reportsnav"/>
+	<s:ViewNavigator label="Facts" icon="{facticon}" width="100%" height="100%" firstView="com.lmc.ralib.view.FactsView" id="factsnav"/>
+	<s:ViewNavigator label="More" icon="{moreicon}" width="100%" height="100%" firstView="com.lmc.ralib.view.MoreView" id="morenav" /> 
+
+	<!-- <s:ViewNavigator label="Groups" icon="{groupsicon}" width="100%" height="100%" firstView="com.lmc.remoteadmin.view.HostGroupsView"/> -->
+	<!-- <s:ViewNavigator label="Profiles" icon="{profilesicon}" width="100%" height="100%" firstView="com.lmc.remoteadmin.view.ProfilesView"/> -->
+
+	
+	<fx:Declarations>
+		<ra:RemoteAdminContext contextView="{this}" />
+	</fx:Declarations>
+</s:TabbedViewNavigatorApplication>

@@ -1,0 +1,70 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+/*#############Charts##############*/
+
+mx|Legend {
+	color: #FFFFFF;
+	horizontalGap: 10;
+	
+}
+
+@media (application-dpi: 320){
+	.mylegendStyle
+	{
+		fontSize: 20;
+		markerWidth: 20;
+		markerHeight: 20;
+		
+	}
+	mx|LegendItem{
+		fontSize: 18;
+	}
+}
+@media (application-dpi: 240){
+	.mylegendStyle
+	{
+		fontSize: 18;
+		markerWidth: 18;
+		markerHeight: 18;
+	}
+	mx|LegendItem{
+		fontSize: 16;
+	}
+}
+@media (application-dpi: 160){
+	.mylegendStyle
+	{
+		fontSize: 16;
+		markerWidth: 16;
+		markerHeight: 16;
+		
+	}
+	mx|LegendItem{
+		fontSize: 14;
+	}
+}
+mx|BarChart{
+	fill: #FFFFFF;
+	
+	
+}
+mx|ColumnChart{
+	fill: #FFFFFF;
+}
+mx|ColumnSeries{
+	fill: #FFFFFF;	
+}
+
+mx|BarSeries{
+	color: #FFFFFF;	
+}
+mx|PieSeries{
+	color: #FFFFFF;	
+} 
+mx|PieChart{
+	fill: #2E2E2E;	
+	
+}
+

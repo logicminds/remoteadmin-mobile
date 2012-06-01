@@ -1,0 +1,92 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+
+@media (application-dpi: 240){
+	s|List{
+		fontSize: 18;
+		verticalScrollPolicy: 'auto';
+		
+	}
+	
+	global {	fontSize: 16; }
+
+	s|Button{
+		fontSize: 16;
+
+	}
+	s|IconItemRenderer{
+		fontSize: 18;
+	}
+	s|Label{
+		fontSize: 18;
+
+	}
+	s|TextInput{
+		skinClass: ClassReference("spark.skins.mobile.TextInputSkin");
+		fontSize: 18;
+	}
+	s|ActionBar #titleDisplay { fontSize: 24pt; }
+
+}
+@media (application-dpi: 160)
+{
+	global {	fontSize: 14; }
+
+	s|List{
+		fontSize: 14;
+	}
+	s|Button{
+		fontSize: 14;
+		
+	}
+	s|IconItemRenderer{
+		fontSize: 14;
+	}
+	s|Label{
+		fontSize: 14;
+	}
+	s|TextInput{
+		skinClass: ClassReference("spark.skins.mobile.TextInputSkin");
+		fontSize: 14;
+	}
+	s|ActionBar #titleDisplay { fontSize: 18pt; }
+
+}
+@media (application-dpi: 320)
+{
+	global {	fontSize: 20; }
+
+	s|List{
+		fontSize: 20;
+	}
+	s|Button{
+		fontSize: 20;
+		
+	}
+	s|IconItemRenderer{
+		fontSize: 20;
+		
+	}
+	s|Label{
+		fontSize: 20;
+		
+	}
+	s|TextInput{
+		skinClass: ClassReference("spark.skins.mobile.TextInputSkin");
+		fontSize: 20;
+
+	}
+	s|ActionBar #titleDisplay { fontSize: 36pt; }
+
+}
+
+	/*global
+{
+	
+	color: #EEBCBC;
+	content-background-color: #D7DDE5; 
+	symbol-color: #A34242;
+	content-background-alpha: 0.0; */
+	/*contentbackgroundcolor: #6D6464; 
+	
+}*/

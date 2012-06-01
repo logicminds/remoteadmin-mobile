@@ -1,0 +1,28 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+
+	.listFormItemRenderer
+	{
+		borderStyle: rounded;
+		cornerRadius: 10;
+	}
+	
+	.listForm #titleDisplay
+	{
+		backgroundAlpha: 0;
+		color: #4C566C;
+		fontSize: 18;
+	}
+
+@media (application-dpi: 320)
+{
+	.listFormItemRenderer
+	{
+		cornerRadius: 20;
+	}
+	
+	.listForm #titleDisplay
+	{
+		fontSize: 36;
+	}
+}
