@@ -1,6 +1,18 @@
-To install the beta on your android device you must meet the following requirements.
+See http://www.remoteadmin.co for additional information
 
+Any questions please contact Corey Osman at corey@logicminds.biz
 
-1. Have an android device capable of running adobe air 2.6 for android.  Adobe air is available via the android market and will install semi-automatically by installing remoteadmin.
+Copyright (c) 2012 Corey Osman 
 
-Almost all android devices are supported as long as your device has a arm7 processor or newer.  
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
