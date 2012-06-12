@@ -1,12 +1,12 @@
 package com.lmc.remoteadmin.bootstraps
 {
 	import com.lmc.ralib.Events.*;
+	import com.lmc.ralib.Events.RestClientEvent;
 	import com.lmc.ralib.components.*;
 	import com.lmc.ralib.components.charts.*;
 	import com.lmc.ralib.controller.*;
 	import com.lmc.ralib.model.*;
 	import com.lmc.ralib.services.*;
-	import com.lmc.ralib.Events.RestClientEvent;
 	import com.lmc.ralib.view.*;
 	
 	import org.robotlegs.core.IInjector;
@@ -18,8 +18,9 @@ package com.lmc.remoteadmin.bootstraps
 		{
 			// Application 
 			//mediatorMap.mapView(LicensePopUp, LicensePopUpMediator,null,false,false);
-
-
+			mediatorMap.mapView(ProfileClientSettingsView, ProfileClientSettingsMediator);
+			mediatorMap.mapView(DiagnosticsView, DiagnosticsViewMediator);
+			
 			// Profile specific
 			mediatorMap.mapView(ProfilesView, ProfilesViewMediator);
 

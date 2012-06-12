@@ -1,6 +1,7 @@
 package com.lmc.remoteadmin.bootstraps
 {
 	import com.lmc.ralib.Events.*;
+	import com.lmc.ralib.Events.RestClientEvent;
 	import com.lmc.ralib.controller.*;
 	import com.lmc.ralib.controller.Application.*;
 	import com.lmc.ralib.controller.Busy.*;
@@ -12,7 +13,6 @@ package com.lmc.remoteadmin.bootstraps
 	import com.lmc.ralib.controller.hosts.*;
 	import com.lmc.ralib.controller.profiles.*;
 	import com.lmc.ralib.controller.reports.*;
-	import com.lmc.ralib.Events.RestClientEvent;
 	
 	import org.robotlegs.core.ICommandMap;
 	
@@ -24,6 +24,7 @@ package com.lmc.remoteadmin.bootstraps
 			commandMap.mapEvent(ApplicationEvent.CLEAR_CACHE_REQUEST, ClearCacheRequestCommand);
 			commandMap.mapEvent(LicenseEvent.OPEN, OpenLicenseCommand);
 			commandMap.mapEvent(LicenseEvent.RESPONSE, SaveLicenseResponseCommand);
+			commandMap.mapEvent(HelpEvent.OPENHELP, OpenHelpCommand);
 			
 			// Stage Web View
 			//commandMap.mapEvent(StageWebViewEvent.OPEN, OpenStageWebView);
