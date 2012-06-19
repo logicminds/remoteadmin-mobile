@@ -13,13 +13,13 @@ package
 	
 	import spark.components.Application;
 
-	public class Remoteadmin_rlMediator extends ViewMediatorBase
+	public class remoteadmin_mobileMediator extends ViewMediatorBase
 	{
 		[Inject] public var preferences:AppPreferences;
-		[Inject] public var view:remoteadmin_rl;
+		[Inject] public var view:remoteadmin_mobile;
 		[Inject] public var menu:Menus;
 		
-		public function Remoteadmin_rlMediator()
+		public function remoteadmin_mobileMediator()
 		{
 			super();
 

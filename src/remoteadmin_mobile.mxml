@@ -37,8 +37,6 @@
 		<![CDATA[
 			import mx.core.FlexGlobals;
 			
-			//TODO Change DPI aware font size for list
-			//TODO Change DPI aware size for button 
 			// trick Flash Builder by adding a dependency
 			IOSThemeClasses;
 			MobileExamples;

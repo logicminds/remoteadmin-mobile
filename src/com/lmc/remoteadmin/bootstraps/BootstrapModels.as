@@ -26,6 +26,8 @@ package com.lmc.remoteadmin.bootstraps
 			injector.mapSingleton(PuppetClasses);
 			injector.mapSingleton(Analytics);
 			injector.mapSingleton(AppPreferences);
+			injector.mapSingleton(Bookmarks);
+
 		}
 	}
 }

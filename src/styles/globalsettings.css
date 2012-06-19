@@ -1,7 +1,14 @@
 /* CSS file */
 @namespace s "library://ns.adobe.com/flex/spark";
+s|TabbedViewNavigatorApplication{
+	backgroundImage: "@embed('assets/subtlebackground.png')";
+}
+s|View{
+	backgroundImage: "@embed('assets/subtlebackground.png')";
 
+}
 @media (application-dpi: 240){
+	
 	s|List{
 		fontSize: 18;
 		verticalScrollPolicy: 'auto';
@@ -14,8 +21,15 @@
 		fontSize: 16;
 
 	}
+	.listmessagestyle{
+		fontSize: 16;	
+	}
+	s|LabelItemRenderer{
+		fontSize: 20;
+	}
 	s|IconItemRenderer{
-		fontSize: 18;
+		fontSize: 20;
+		messageStyleName: "listmessagestyle";
 	}
 	s|Label{
 		fontSize: 18;
@@ -39,8 +53,15 @@
 		fontSize: 14;
 		
 	}
+	.listmessagestyle{
+		fontSize: 12;	
+	}
+	s|LabelItemRenderer{
+		fontSize: 16;
+	}
 	s|IconItemRenderer{
-		fontSize: 14;
+		fontSize: 16;
+		messageStyleName: "listmessagestyle";
 	}
 	s|Label{
 		fontSize: 14;
@@ -63,9 +84,15 @@
 		fontSize: 20;
 		
 	}
+	.listmessagestyle{
+		fontSize: 18;	
+	}
+	s|LabelItemRenderer{
+		fontSize: 24;
+	}
 	s|IconItemRenderer{
-		fontSize: 20;
-		
+		fontSize: 24;
+		messageStyleName: "listmessagestyle";
 	}
 	s|Label{
 		fontSize: 20;

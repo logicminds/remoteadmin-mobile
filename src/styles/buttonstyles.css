@@ -141,19 +141,25 @@
 
 @media (application-dpi: 160){
 	.filterButton{
-		icon: Embed(source='assets/icons/filter24.png');	
+		icon: Embed(source='assets/icons/filter24.png');
+		source: "@Embed(source='assets/icons/filter24.png')";
+
 	}
 }
 
 @media (application-dpi: 240){
 	.filterButton{
-		icon: Embed(source='assets/icons/filter32.png');	
+		icon: Embed(source='assets/icons/filter32.png');
+		source: "@Embed(source='assets/icons/filter32.png')";
+
 	}
 }
 
 @media (application-dpi: 320){
 	.filterButton{
-		icon: Embed(source='assets/icons/filter48.png');	
+		icon: Embed(source='assets/icons/filter48.png');
+		source: "Embed(source='assets/icons/filter48.png')";
+
 	}
 }
 
@@ -406,20 +412,7 @@
 }
 
 
-@media (application-dpi: 160){
-	.backButton{
-	}
-}
-@media (application-dpi: 240){
-	.backButton{
 
-	}
-}
-@media (application-dpi: 320){
-	.backButton{
-
-	}
-}
 @media (application-dpi: 160){
 	.settingsButtonicon{
 		icon: "assets/icons/settingsicon32.png";	}
