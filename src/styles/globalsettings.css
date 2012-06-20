@@ -1,5 +1,7 @@
 /* CSS file */
 @namespace s "library://ns.adobe.com/flex/spark";
+
+
 s|TabbedViewNavigatorApplication{
 	backgroundImage: "@embed('assets/subtlebackground.png')";
 }
@@ -15,7 +17,7 @@ s|View{
 		
 	}
 	
-	global {	fontSize: 16; }
+	global {	fontSize: 16; } 
 
 	s|Button{
 		fontSize: 16;
@@ -31,6 +33,7 @@ s|View{
 		fontSize: 20;
 		messageStyleName: "listmessagestyle";
 	}
+	
 	s|Label{
 		fontSize: 18;
 
@@ -44,7 +47,7 @@ s|View{
 }
 @media (application-dpi: 160)
 {
-	global {	fontSize: 14; }
+	global {	fontSize: 16; } 
 
 	s|List{
 		fontSize: 14;
@@ -64,18 +67,18 @@ s|View{
 		messageStyleName: "listmessagestyle";
 	}
 	s|Label{
-		fontSize: 14;
+		fontSize: 16;
 	}
 	s|TextInput{
 		skinClass: ClassReference("spark.skins.mobile.TextInputSkin");
-		fontSize: 14;
+		fontSize: 16;
 	}
 	s|ActionBar #titleDisplay { fontSize: 18pt; }
 
 }
 @media (application-dpi: 320)
 {
-	global {	fontSize: 20; }
+	global {	fontSize: 20; } 
 
 	s|List{
 		fontSize: 20;
@@ -95,12 +98,12 @@ s|View{
 		messageStyleName: "listmessagestyle";
 	}
 	s|Label{
-		fontSize: 20;
+		fontSize: 24;
 		
 	}
 	s|TextInput{
 		skinClass: ClassReference("spark.skins.mobile.TextInputSkin");
-		fontSize: 20;
+		fontSize: 24;
 
 	}
 	s|ActionBar #titleDisplay { fontSize: 36pt; }

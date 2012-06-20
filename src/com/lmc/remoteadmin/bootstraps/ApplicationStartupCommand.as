@@ -1,13 +1,17 @@
 package com.lmc.remoteadmin.bootstraps
 {
 	import com.lmc.ralib.Events.*;
+	import com.lmc.ralib.bootstraps.*;
 	import com.lmc.ralib.components.BusyPopUp;
 	import com.lmc.ralib.components.BusyPopUpMediator;
-	import com.lmc.ralib.model.AppPreferences;
-	import com.lmc.ralib.view.HomeView;
-	import com.lmc.ralib.view.ProfilesView;
 	import com.lmc.ralib.components.LicensePopUp;
 	import com.lmc.ralib.components.LicensePopUpMediator;
+	import com.lmc.ralib.model.AppPreferences;
+	import com.lmc.ralib.model.Bookmark;
+	import com.lmc.ralib.model.Bookmarks;
+	import com.lmc.ralib.view.HomeView;
+	import com.lmc.ralib.view.ProfilesView;
+	
 	import org.robotlegs.mvcs.Command;
 
 	public class ApplicationStartupCommand extends Command
@@ -59,6 +63,12 @@ package com.lmc.remoteadmin.bootstraps
 			// set the styles
 			busy.open(this.contextView);
 			busy.visible = false;
+			
+			// Add Bookmarks to local bookmarks model
+			var bookmarks:Bookmarks = injector.getInstance(Bookmarks);
+			//var b1:Bookmark = new Bookmark();
+			//b1.
+			//bookmarks.add
 			
 		}
 	}

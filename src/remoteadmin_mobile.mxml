@@ -37,9 +37,9 @@
 		<![CDATA[
 			import mx.core.FlexGlobals;
 			
-			// trick Flash Builder by adding a dependency
-			IOSThemeClasses;
-			MobileExamples;
+			// trick Flash Builder by adding a dependency, might not need this
+			//IOSThemeClasses;
+			//MobileExamples;
 
 		]]>
 	</fx:Script>
