@@ -1,6 +1,6 @@
 /* CSS file */
 @namespace s "library://ns.adobe.com/flex/spark";
-
+@namespace lmc "com.lmc.ralib.renderers.*";
 
 s|TabbedViewNavigatorApplication{
 	backgroundImage: "@embed('assets/subtlebackground.png')";
@@ -11,9 +11,15 @@ s|View{
 }
 @media (application-dpi: 240){
 	
+	.squarebutton{
+		fontSize: 24;
+		fontWeight: bold;
+	}
 	s|List{
 		fontSize: 18;
 		verticalScrollPolicy: 'auto';
+		downColor: #015DE6;
+		selectionColor: #015DE6;
 		
 	}
 	
@@ -27,13 +33,16 @@ s|View{
 		fontSize: 16;	
 	}
 	s|LabelItemRenderer{
-		fontSize: 20;
+		fontSize: 22;
 	}
 	s|IconItemRenderer{
-		fontSize: 20;
+		fontSize: 22;
 		messageStyleName: "listmessagestyle";
 	}
-	
+	lmc|ReportsItemRenderer{
+		fontSize: 22;
+		messageStyleName: "listmessagestyle";
+	}
 	s|Label{
 		fontSize: 18;
 
@@ -41,6 +50,8 @@ s|View{
 	s|TextInput{
 		skinClass: ClassReference("spark.skins.mobile.TextInputSkin");
 		fontSize: 18;
+		/* http://stackoverflow.com/questions/10913156/flex-4-6-textinput-with-prompt-on-ios-misbehaves */
+		showPromptWhenFocused: false;
 	}
 	s|ActionBar #titleDisplay { fontSize: 24pt; }
 
@@ -49,8 +60,15 @@ s|View{
 {
 	global {	fontSize: 16; } 
 
+	.squarebutton{
+		fontSize: 20;
+		fontWeight: bold;
+	}
 	s|List{
 		fontSize: 14;
+		verticalScrollPolicy: 'auto';
+		downColor: #015DE6;
+		selectionColor: #015DE6;
 	}
 	s|Button{
 		fontSize: 14;
@@ -66,12 +84,18 @@ s|View{
 		fontSize: 16;
 		messageStyleName: "listmessagestyle";
 	}
+	lmc|ReportsItemRenderer{
+		fontSize: 16;
+		messageStyleName: "listmessagestyle";
+	}
 	s|Label{
 		fontSize: 16;
 	}
 	s|TextInput{
 		skinClass: ClassReference("spark.skins.mobile.TextInputSkin");
 		fontSize: 16;
+		/* http://stackoverflow.com/questions/10913156/flex-4-6-textinput-with-prompt-on-ios-misbehaves */
+		showPromptWhenFocused: false;
 	}
 	s|ActionBar #titleDisplay { fontSize: 18pt; }
 
@@ -80,21 +104,37 @@ s|View{
 {
 	global {	fontSize: 20; } 
 
+	.squarebutton{
+		fontSize: 32;
+		fontWeight: bold;
+	}
 	s|List{
-		fontSize: 20;
+		fontSize: 24;
+		verticalScrollPolicy: 'auto';
+		downColor: #015DE6;
+		selectionColor: #015DE6;
 	}
 	s|Button{
 		fontSize: 20;
 		
 	}
 	.listmessagestyle{
-		fontSize: 18;	
+		/* Controls the little message underneath */
+		fontSize: 24;	
+	}
+	.listmessagestyleM{
+		fontSize: 24;	
 	}
 	s|LabelItemRenderer{
-		fontSize: 24;
+		fontSize: 28;
 	}
 	s|IconItemRenderer{
-		fontSize: 24;
+		fontSize: 30;
+		messageStyleName: "listmessagestyle";
+		messageStyleNameM: "listmessagestyleM";
+	}
+	lmc|ReportsItemRenderer{
+		fontSize: 28;
 		messageStyleName: "listmessagestyle";
 	}
 	s|Label{
@@ -104,6 +144,8 @@ s|View{
 	s|TextInput{
 		skinClass: ClassReference("spark.skins.mobile.TextInputSkin");
 		fontSize: 24;
+		/* http://stackoverflow.com/questions/10913156/flex-4-6-textinput-with-prompt-on-ios-misbehaves */
+		showPromptWhenFocused: false;
 
 	}
 	s|ActionBar #titleDisplay { fontSize: 36pt; }
