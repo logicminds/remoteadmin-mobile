@@ -43,7 +43,7 @@
 
 		]]>
 	</fx:Script>
-	<s:ViewNavigator label="Home" icon="{homeicon}" width="100%" height="100%" id="homenav" />
+	<s:ViewNavigator label="Home" icon="{homeicon}" width="100%" height="100%" id="homenav" firstView="com.lmc.ralib.view.HomeView" />
 	<s:ViewNavigator label="Hosts" icon="{systemsicon}" width="100%" height="100%" firstView="com.lmc.ralib.view.HostsView" id="hostsnav"/>
 	<s:ViewNavigator label="Reports" icon="{reportsicon}" width="100%" height="100%" firstView="com.lmc.ralib.view.ReportsView" id="reportsnav"/>
 	<s:ViewNavigator label="Facts" icon="{facticon}" width="100%" height="100%" firstView="com.lmc.ralib.view.FactsView" id="factsnav"/>

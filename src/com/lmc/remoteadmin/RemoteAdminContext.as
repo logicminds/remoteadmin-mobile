@@ -8,7 +8,7 @@ package com.lmc.remoteadmin
 	import com.lmc.ralib.model.*;
 	import com.lmc.ralib.services.*;
 	import com.lmc.ralib.view.*;
-	import com.lmc.remoteadmin.bootstraps.*;
+	import com.lmc.ralib.bootstraps.*;
 	
 	import flash.display.DisplayObjectContainer;
 	import flash.events.EventDispatcher;

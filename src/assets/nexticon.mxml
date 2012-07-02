@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<s:Graphic version="2.0" 
+	ai:appVersion="15.0.2.399" 
+	ATE:version="1.0.0" 
+	flm:version="1.0.0" 
+	xmlns:s="library://ns.adobe.com/flex/spark" 
+	xmlns:ATE="http://ns.adobe.com/ate/2009" 
+	xmlns:ai="http://ns.adobe.com/ai/2009" 
+	xmlns:d="http://ns.adobe.com/fxg/2008/dt" 
+	xmlns:flm="http://ns.adobe.com/flame/2008">
+  <s:Group ai:seqID="1" d:layerType="page" d:pageHeight="14.946" d:pageWidth="18.556" d:type="layer" d:userLabel="Artboard 1">
+    <s:Group ai:seqID="2" d:type="layer" d:userLabel="Layer 1">
+      <s:Group x="2.75439" y="1.65479" ai:seqID="3" flm:knockout="false">
+        <s:Group ai:seqID="4" flm:knockout="false">
+          <s:Path x="0.125" y="0.187012" winding="nonZero" ai:seqID="5" data="M0 9.73486 9.71191 5.79443 0 1.8916 0 0 11.75 4.85107 11.75 6.71436 0 11.6255 0 9.73486Z">
+            <s:fill>
+              <s:SolidColor color="#D40000"/>
+            </s:fill>
+          </s:Path>
+          <s:Path winding="nonZero" ai:seqID="6" data="M0.25 0.373535 11.75 5.12207 11.75 6.81836 0.25 11.625 0.25 10.0059 9.59668 6.21387 10.1709 5.98145 9.5957 5.75 0.25 1.99414 0.25 0.373535M0 0 0 2.16309 9.50293 5.98242 0 9.83789 0 12 12 6.98438 12 4.95459 0 0 0 0Z">
+            <s:fill>
+              <s:SolidColor/>
+            </s:fill>
+          </s:Path>
+        </s:Group>
+      </s:Group>
+    </s:Group>
+  </s:Group>
+</s:Graphic>
