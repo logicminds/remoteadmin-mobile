@@ -1,6 +1,7 @@
 /* CSS file */
 @namespace s "library://ns.adobe.com/flex/spark";
 @namespace lmc "com.lmc.ralib.renderers.*";
+@namespace controls "com.pialabs.eskimo.controls.*";
 
 s|TabbedViewNavigatorApplication{
 	backgroundImage: "@embed('assets/subtlebackground.png')";
@@ -8,6 +9,36 @@ s|TabbedViewNavigatorApplication{
 s|View{
 	backgroundImage: "@embed('assets/subtlebackground.png')";
 
+}
+controls|SkinnableAlert
+{
+	skinClass: ClassReference("com.pialabs.eskimo.skins.mobile.ios.AlertSkin");
+	backgroundColor: #031037;
+	backgroundAlpha: 0.8;
+	okButtonStyleName: "okButtonStyle";
+	cancelButtonStyleName: "cancelButtonStyle";
+	yesButtonStyleName: "yesButtonStyle";
+	noButtonStyleName: "noButtonStyle";
+}
+controls|SkinnableInputDialog
+{
+	skinClass: ClassReference("com.pialabs.eskimo.skins.mobile.ios.InputDialogSkin");
+	backgroundColor: #031037;
+	backgroundAlpha: 0.8;
+	okButtonStyleName: "okButtonStyle";
+	cancelButtonStyleName: "cancelButtonStyle";
+	yesButtonStyleName: "yesButtonStyle";
+	noButtonStyleName: "noButtonStyle";
+}
+controls|SkinnablePasswordInputDialog
+{
+	skinClass: ClassReference("com.pialabs.eskimo.skins.mobile.ios.PasswordInputDialogSkin");
+	backgroundColor: #031037;
+	backgroundAlpha: 0.8;
+	okButtonStyleName: "okButtonStyle";
+	cancelButtonStyleName: "cancelButtonStyle";
+	yesButtonStyleName: "yesButtonStyle";
+	noButtonStyleName: "noButtonStyle";
 }
 @media (application-dpi: 240){
 	
